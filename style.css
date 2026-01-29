@@ -1,0 +1,55 @@
+body {
+font-family: Arial, sans-serif;
+background: #f2f6fb;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+
+.card {
+background: white;
+padding: 2rem;
+border-radius: 12px;
+box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+width: 320px;
+text-align: center;
+}
+
+
+input {
+width: 100%;
+padding: 0.6rem;
+margin-bottom: 1rem;
+border-radius: 6px;
+border: 1px solid #ccc;
+}
+
+
+button {
+padding: 0.6rem 1rem;
+border: none;
+border-radius: 6px;
+background: #4f46e5;
+color: white;
+cursor: pointer;
+width: 100%;
+}
+
+
+button:hover {
+background: #4338ca;
+}
+
+
+.weather {
+margin-top: 1.5rem;
+}
+
+
+.error {
+color: #dc2626;
+margin-top: 1rem;
+}
