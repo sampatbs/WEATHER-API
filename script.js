@@ -5,7 +5,7 @@ const button = document.getElementById("weatherBtn");
 const cityInput = document.getElementById("cityInput");
 const weatherDiv = document.getElementById("weather");
 const errorDiv = document.getElementById("error");
-//
+
 
 button.addEventListener("click", getWeather);
 
@@ -45,4 +45,5 @@ weatherDiv.innerHTML = `
 } catch (error) {
 errorDiv.textContent = error.message;
 }
+
 }
